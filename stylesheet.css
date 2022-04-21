@@ -1,0 +1,122 @@
+colour scheme {
+  /* These are just color swatches to use as a theme, copy to where you want to use */
+  color: #0c4582;
+  color: #d3e239;
+  color: #cad7e4;
+  color: #0c458220;
+}
+
+body {
+  /* Edit colour for background on all pages */
+  background-color: #0c4582;
+}
+
+/* Buttons 
+-------------------------------------------------- */
+.btn-main {
+  border-radius: 15px;
+  color: #fff;
+  background-color: #d3e239;
+  border-color: #d3e239;
+  border-width: 2px;
+}
+.btn-main:hover {
+  color: #d3e239;
+  background-color: #d3e23950;
+}
+
+.btn-inv {
+  border-radius: 15px;
+  color: #d3e239;
+  background-color: #fff;
+  border-color: #d3e239;
+  border-width: 2px;
+}
+.btn-inv:hover {
+  color: #d3e239;
+  background-color: #d3e23950;
+}
+
+/* Boxes 
+-------------------------------------------------- */
+.w-box {
+  border-radius: 15px;
+  padding: 25px;
+  background-color: #ffffff;
+  margin: auto;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.b-box {
+  border-radius: 15px;
+  padding: 25px;
+  background-color: #0c458220;
+  margin: auto;
+  width: 100%;
+}
+
+.g-box {
+  border-radius: 10px;
+  padding: 25px;
+  background-color: #d3e239;
+  margin: auto;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.b-input {
+  border-radius: 15px;
+  padding: 5px;
+  background-color: #0c458220;
+  margin: auto;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.b-select {
+  border-radius: 15px;
+  padding: 5px;
+  background-color: #0c458220;
+  margin: auto;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+/* viewgroups.php table css */
+.vg-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.vg-head {
+  background-color: #d3e239;
+  color: #fff;
+  text-align: left;
+}
+
+/* Table
+-------------------------------------------------- */
+
+.styled-table {
+  border-collapse: collapse;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  white-space: nowrap;
+}
+.styled-table thead tr {
+  background-color: #ffffff15;
+  color: #0c4582;
+}
+.styled-table th,
+.styled-table td {
+  padding: 5px 20px;
+  width: 100%;
+  text-align: center;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #ffffff;
+}
+.styled-table tbody tr:last-of-type {
+  border-bottom: 1px solid #ffffff;
+}
